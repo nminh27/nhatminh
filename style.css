@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #aaedcc;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 850px;
+  width: 100%;
+}
+
+.profile-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 150, 100, 0.1);
+}
+
+.avatar {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 4px solid #00c37a;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #00a87e;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  text-align: center;
+  color: #01c8ee;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.bio {
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 35px;
+}
+
+.section h2 {
+  color: #00996b;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-bottom: 3px solid #00c37a;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+}
+
+.section strong {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+.section ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.section p,
+.section span {
+  margin-top: 5px;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.skills-list {
+    list-style-type: disc;
+    padding-left: 25px;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #333;
+}
+
+.skills-list li {
+    margin-bottom: 8px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #01a778;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.1rem;
+  }
+
+  .profile-card {
+    padding: 25px;
+  }
+}
