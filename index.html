@@ -1,114 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Student Introduction</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Nhat Minh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="profile-card">
-            <img src="intropagepic.jpg" alt="Profile Photo" class="avatar" />
 
-            <h1>Nguyen Nhat Minh</h1>
-            <p class="tagline">Undergraduate Student in Computer Science</p>
-
-            <p class="bio">
-                I'm a person who loves thinking about endless possibilities of what everything around me can bring to the world. My hobby is to think more about the nuances and gray areas where I can conduct further explorations, re-evaluate current concepts and definitions, and determine whether these changes can lead to innovations that improve the field and benefit the surrounding environment.
-            </p>
-
-            <div class="section">
-                <h2>Skills</h2>
-                <ul class="skills-list">
-                    <li><strong>Programming Languages:</strong> Python, C</li>
-                    <li><strong>Web Technologies:</strong> HTML, CSS</li>
-                    <li><strong>Tools &amp; Systems:</strong> Git, Docker, Linux</li>
-                    <li><strong>Soft Skills:</strong> Problem-solving, Communication, Agile methodologies, Presentation</li>
-                </ul>
+    <header>
+        <div class="container">
+            <div class="profile-cover-container">
+                <img src="intropagepic.jpg" alt="Nguyen Nhat Minh" class="profile-cover-img">
             </div>
-
-            <div class="section">
-                <h2>Working Experience</h2>
-                <strong>Human Language Intelligence Lab | Internship | Jun 2025 – Sep 2025</strong>
-                <ul>
-                    <li>Implemented text-infilling pipelines using PyTorch and Hugging Face Transformers for masked language modeling to support research on generative NLP models on the Vietnamese language.</li>
-                    <li>Improved cultural representation in language models by integrating diverse datasets, fine-tuning BERT models to achieve 32% accuracy boost in the cultural knowledge testing task.</li>
-                    <li>Implemented the Cultural Bias Score (CBS score), a novel evaluation metric to measure model performance, and conducted experiments on bias detection and mitigation in Large Language Models (LLMs).</li>
-                    <li>Conducted data quality assurance on a multi-dimensional Vietnamese dataset encompassing 10 distinct cultural categories, mitigating noisy data for the research pipeline.</li>
-                </ul>
-            </div>
-
-            <div style="height: 15px;"></div>
-
-            <div class="section">
-                <strong>Đép’s CKB services | Founder | Sep 2020 – Jan 2024</strong>
-                <ul>
-                    <li>Service provider in modifying custom keyboards</li>
-                    <li>Advertised our workshop on different platforms</li>
-                    <li>Did collaborations further expanding our reputation</li>
-                    <li>Responsible for warranty and further aftercare services</li>
-                    <li>Provided customer support on which services to use</li>
-                    <li>Managed funds and resources to develop the business</li>
-                </ul>
-            </div>
-
-            <div class="section education-section">
-                <h2>Education</h2>
-                <strong>Sungkyunkwan University | 2024 – Present</strong>
-                <ul>
-                    <li>College of Computing and Informatics</li>
-                    <li>B.S. Computer Science and Engineering</li>
-                    <li>Major: Software</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>Projects</h2>
-                <strong>Lab Access System for Lab Reservation System | Sep 2024 – Dec 2024</strong>
-                <ul>
-                    <li>Contributed to building an AI face recognition function for a lab reservation system by researching the efficiency and
-compatibility of OpenCV and TensorFlow libraries with our current hardware system</li>
-                    <li>Responsible for hardware management through the contribution to project hardware selection, balancing between our budget
-and functionality, and designing and modifying 3D components, models, and printing for our project</li>
-                    <li>Contributed to product testing and resolving software and hardware conflicts for our project, maintaining the full working
-efficiency of the final product</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h2>Hobbies</h2>
-                <ul>
-                    <li>Badminton</li>
-                    <li>Custom Mechanical Keyboard</li>
-                    <li>Audio related device</li>
-                    <li>Science fiction novel</li>
-                    <li>Human psychology</li>
-                    <li>Exploring new technologies</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>Links</h2>
+            
+            <div class="header-text">
+                <h1>Nguyen Nhat Minh</h1>
+                <p class="subtitle">Software Engineering Student @ SKKU</p>
                 <div class="social-links">
-                    <a href="mailto:minhnn2708@gmail.com">Email</a>
-                    <a href="https://github.com/nminh27" target="_blank">GitHub</a>
-                    <a href="https://linkedin.com/in/nhat-minh-nguyen-2ba33a36a/" target="_blank">LinkedIn</a>
-                    <a href="Nguyen Nhat Minh_CV_2.pdf">Curriculum Vitae</a>
+                    <a href="Nguyen Nhat Minh_CV_2.pdf" target="_blank" title="CV"><i class="fas fa-file-alt"></i> CV</a>
+                    <a href="mailto:your.email@email.com" title="Email"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://github.com/nminh27" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a Software undergraduate student at Sungkyunkwan University with a focus on Natural Language Processing (NLP). During my academic and internship experiences, I have developed a practical interest in large language models (LLMs) and model evaluation. My goal is to build a solid technical foundation in machine learning while exploring the challenges of model alignment and cultural context in AI systems.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Research & Experience</h2>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Research Intern</h3>
+                    <span class="date">July 2025 – Sept 2025</span>
+                </div>
+                <p class="organization">Human Language Intelligence (HLI) Lab, SKKU</p>
+                <ul class="bullet-points">
+                    <li><strong>Pipeline Implementation:</strong> Assisted in implementing masked language modeling pipelines using PyTorch and Hugging Face Transformers for Vietnamese NLP research.</li>
+                    <li><strong>Model Fine-Tuning & Data Processing:</strong> Handled data preprocessing and participated in fine-tuning BERT models, contributing to experiments focused on cultural knowledge evaluation.</li>
+                    <li><strong>Evaluation Metric Contribution:</strong> Contributed to the development and testing of the Cultural Bias Score (CBS), assisting the research team in evaluating cultural bias in LLMs.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Capstone Design Project</h3>
+                    <span class="date">Sept 2024 - Dec 2024</span>
+                </div>
+                <ul class="bullet-points">
+                    <li><strong>Component Assembly:</strong> Selected and integrated hardware components (Raspberry Pi, facial recognition modules, QR scanners) while adhering to budget constraints.</li>
+                    <li><strong>Prototyping:</strong> selected open-sourced components, modified, re-modeled, and 3D-printed custom housing components for the system prototype.</li>
+                    <li><strong>System Testing:</strong> Conducted functionality tests and troubleshot software-hardware integration issues to ensure system stability.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Sungkyunkwan University (SKKU)</h3>
+                    <span class="date">2024 – Present</span>
+                </div>
+                <p class="degree">B.S. in Software Engineering (Undergraduate)</p>
+                <ul class="bullet-points">
+                    <li><strong>Honors:</strong> Academic Excellence Scholarship (2025)</li>
+                    <li><strong>Language Proficiency:</strong> IELTS 7.5</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="tags-wrapper">
+                <span class="badge"><i class="fas fa-code"></i> Python</span>
+                <span class="badge"><i class="fas fa-code"></i> C</span>
+                <span class="badge"><i class="fas fa-file-code"></i> HTML/CSS</span>   
+                <span class="badge"><i class="fas fa-layer-group"></i> PyTorch</span>
+                <span class="badge"><i class="fas fa-robot"></i> Hugging Face</span>
+                <span class="badge"><i class="fab fa-git-alt"></i> Git</span>
+                <span class="badge"><i class="fab fa-linux"></i> Linux</span>
+                <span class="badge"><i class="fab fa-raspberry-pi"></i> Raspberry Pi</span>
+            </div>
+        </section>
+
+        <section id="interests">
+            <h2>Interests & Passions</h2>
+            <div class="tags-wrapper">
+                <span class="badge"><i class="fas fa-table-tennis-paddle-ball"></i> Badminton</span>
+                <span class="badge"><i class="fas fa-keyboard"></i> Custom Mechanical Keyboards</span>
+                <span class="badge"><i class="fas fa-brain"></i> Human Psychology & Philosophy</span>
+                <span class="badge"><i class="fas fa-book-open"></i> Sci-Fi Literature</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Nguyen Nhat Minh. Built with Git Pages.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
