@@ -3,123 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyen Nhat Minh | Portfolio</title>
+    <title>Nguyễn Nhật Minh | Academic Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-    <header>
-        <div class="container">
-            <div class="profile-cover-container">
-                <img src="intropagepic.jpg" alt="Nguyen Nhat Minh" class="profile-cover-img">
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-img">
+                <img src="intropagepic.jpg" alt="Profile Photo">
             </div>
-            
-            <div class="header-text">
-                <h1>Nguyen Nhat Minh</h1>
-                <p class="subtitle">Computer Science and Engineering Student @ SKKU</p>
-                <div class="social-links">
-                    <a href="Nguyen Nhat Minh_CV_2.pdf" target="_blank" title="CV"><i class="fas fa-file-alt"></i> CV</a>
-                    <a href="minhnn2708@gmail.com" title="Email"><i class="fas fa-envelope"></i> Email</a>
-                    <a href="https://github.com/nminh27" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://www.linkedin.com/in/nhat-minh-nguyen-moc" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                </div>
+            <h1>Nguyễn Nhật Minh</h1>
+            <p class="title">Undergraduate Student</p>
+            <p class="affiliation">Sungkyunkwan University (SKKU)<br>Nanyang Technological University (NTU)</p>
+
+            <div class="contact-links">
+                <a href="mailto:minhnn2708@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://github.com/nminh27"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/nhat-minh-nguyen-2ba33a36a/"><i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
-        </div>
-    </header>
 
-    <main class="container">
-        
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a Computer Science and Engineering undergraduate student at Sungkyunkwan University with a focus on Natural Language Processing (NLP). During my academic and internship experiences, I have developed a practical interest in large language models (LLMs) and model evaluation. My goal is to build a solid technical foundation in machine learning while exploring the challenges of model alignment and cultural context in AI systems.</p>
-        </section>
+            <nav class="nav-menu">
+                <a href="#about" class="active">About</a>
+                <a href="#news">News</a>
+                <a href="#publication">Publications</a>
+                <a href="#research">Research & Work Related Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#Award">Awards</a>
+            </nav>
+        </aside>
 
-        <section id="experience">
-            <h2>Research & Experience</h2>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Research Intern</h3>
-                    <span class="date">July 2025 – Sept 2025</span>
-                </div>
-                <p class="organization">Human Language Intelligence (HLI) Lab, SKKU</p>
-                <ul class="bullet-points">
-                    <li><strong>Pipeline Implementation:</strong> Assisted in implementing masked language modeling pipelines using PyTorch and Hugging Face Transformers for Vietnamese NLP research.</li>
-                    <li><strong>Model Fine-Tuning & Data Processing:</strong> Handled data preprocessing and participated in fine-tuning BERT models, contributing to experiments focused on cultural knowledge evaluation.</li>
-                    <li><strong>Evaluation Metric Contribution:</strong> Implemented a novel evaluation metric, such as the Cultural Bias Score (CBS score) to measure model performance, and conducted experiments on bias detection and mitigation in Large Language Models (LLMs). </li>
+        <main class="content">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am an undergraduate student studying Computer Science and Engineering with a primary focus on <strong>Natural Language Processing (NLP)</strong>, <strong>Large Language Models (LLMs)</strong>. My previous work explores evaluating and mitigating cultural biases in multilingual architectures, alongside an active interest in human-computer interaction and systems engineering.</p>
+            </section>
+
+            <section id="news">
+                <h2>Recent News</h2>
+                <ul class="news-list">
+                    <li><strong>[Sep 2026]</strong> Happy to be one of the top 50 candidates to receive the SKKU Global Challenge Scholarship for my exchange at Nanyang Technological University 🎊</li>
+                    <li><strong>[Aug 2026]</strong> Excited to be on my way to doing an exchange semester at Nanyang Technological University Singapore 🔥</li>
+                    <li><strong>[Sep 2025]</strong> Concluded an 8-week summer research internship at the Human Language Intelligence Lab @ SKKU. It was a fun and meaningful journey 😊 </li>
                 </ul>
-            </div>
-        </section>
+            </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Capstone Design Project</h3>
-                    <span class="date">Sept 2024 - Dec 2024</span>
+            <section id="publication">
+                <h2>Publications</h2>
+                <div class="publication">
+                    <p class="venue">On my way 😊</p>
                 </div>
-                <ul class="bullet-points">
-                    <li><strong>Component Assembly:</strong> Selected and integrated hardware components (Raspberry Pi, facial recognition modules, QR scanners) while adhering to budget constraints.</li>
-                    <li><strong>Prototyping:</strong> selected open-sourced components, modified, re-modeled, and 3D-printed custom housing components for the system prototype.</li>
-                    <li><strong>System Testing:</strong> Conducted functionality tests and troubleshot software-hardware integration issues to ensure system stability.</li>
-                </ul>
-            </div>
-        </section>
+            </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Sungkyunkwan University (SKKU)</h3>
-                    <span class="date">2024 – Present</span>
+            <section id="research">
+                <h2>Research & Work Related Experience</h2>
+                <div class="publication">
+                    <h3 class="paper-title">Human Language Intelligence Lab Internship</h3>
+                    <p class="venue">Human Language Intelligence Lab <em>(Internship Project)</em>, 2025</p>
+                    <ul class="custom-list">
+                        <li> Assisted in implementing masked language modeling pipelines using PyTorch and Hugging Face Transformers for Vietnamese NLP research.</li>
+                        <li> Implemented the Cultural Bias Score evaluation metric to quantify alignment discrepancies in multilingual contexts.</li>
+                        <li> Handled data preprocessing and participated in fine-tuning BERT models. Conducted experiments on bias detection and mitigation in Large Language Models (LLMs).</li>
+                    </ul>
                 </div>
-                <p class="degree">B.S. in Computer Science and Engineering (Undergraduate)</p>
-                <ul class="bullet-points">
-                    <li><strong>Honors:</strong> Academic Excellence Scholarship (2025)</li>
-                    <li><strong>Language Proficiency:</strong> IELTS 7.5</li>
-                </ul>
-                <div class="card-header">
-                    <h3 style="margin-top: 24px;">Nanyang Technological University (Exchange Student)</h3>
-                    <span class="date" style="margin-top: 24px;">Aug 2026 – Dec 2026</span>
+
+                <div class="publication">
+                    <h3 class="paper-title">Đép’s CKB services</h3>
+                    <p class="venue">Self-made Small Business <em>(Self-employ)</em>, 2020-2024</p>
+                    <ul class="custom-list abstract">
+                        <li> Service provider in modifying custom keyboards, including lubing components, keyboard soldering and wire fixing, keyboard assembly, custom keyboard parts configuration advisor, warranty, customer support, and aftercare services.</li>
+                        <li> Advertised our workshop on different platforms and did collaborations, which dramatically improved our reputation from a small user group within the high school to a large Facebook community comprising over 100K members across the nation within 2 months.</li>
+                        <li> Managed the workshop funds and resources in which allowed the business to sustain and thrive through the pandemic, gained the trust of 30+ loyal service users, contributing over $15K USD to the business.</li>
+                    </ul>
                 </div>
-                <ul class="bullet-points">
-                    <li><strong>Exchange Program:</strong> Focusing on HCI and NLP.</li>
-                    <li><strong>Courses:</strong> Natural Language Processing, Human-Computer Interaction, Engineering Communication, Computer Communication, Communication Principles, Embedded Programming, Computer Graphics and Visualization.</li>
-                </ul>
-            </div>
-        </section>
+            </section>
 
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            <div class="tags-wrapper">
-                <span class="badge"><i class="fas fa-code"></i> Python</span>
-                <span class="badge"><i class="fas fa-code"></i> C</span>
-                <span class="badge"><i class="fas fa-file-code"></i> HTML/CSS</span>   
-                <span class="badge"><i class="fas fa-layer-group"></i> PyTorch</span>
-                <span class="badge"><i class="fas fa-robot"></i> Hugging Face</span>
-                <span class="badge"><i class="fab fa-git-alt"></i> Git</span>
-                <span class="badge"><i class="fab fa-linux"></i> Linux</span>
-                <span class="badge"><i class="fab fa-raspberry-pi"></i> Raspberry Pi</span>
-            </div>
-        </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3 class="project-title">Lab Reservation System - Capstone Project</h3>
+                    <ul class="custom-list">
+                        <li> Selected and integrated hardware components (Raspberry Pi, facial recognition modules, QR scanners, camera component) while adhering to budget constraints.</li>
+                        <li> Selected open-source components, modified, re-modeled, and 3D-printed custom housing components for the system prototype.</li>
+                        <li> Conducted functionality tests and troubleshot software-hardware integration issues to ensure system stability.</li>
+                    </ul>
+                </div>
+            </section>
 
-        <section id="interests">
-            <h2>Interests & Passions</h2>
-            <div class="tags-wrapper">
-                <span class="badge"><i class="fas fa-table-tennis-paddle-ball"></i> Badminton</span>
-                <span class="badge"><i class="fas fa-keyboard"></i> Custom Mechanical Keyboards</span>
-                <span class="badge"><i class="fas fa-brain"></i> Human Psychology & Philosophy</span>
-                <span class="badge"><i class="fas fa-book-open"></i> Sci-Fi Literature</span>
-            </div>
-        </section>
+            <section id="Award">
+                <h2>Awards</h2>
+                <div class="project">
+                    <h3 class="project-title">Global Challenge Scholarship (Sep 2026)</h3>
+                    <ul class="custom-list">
+                        <li> Selected as one of the top 50 candidate that went on an exchange at one of the SKKU partner universities.</li>
+                    </ul>
 
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Nguyen Nhat Minh. Built with Git Pages.</p>
-        </div>
-    </footer>
-
+                    <h3 class="project-title">Academic Excellence Scholarship (2025)</h3>
+                    <ul class="custom-list">
+                        <li> Awarded for good academic performance ranking within the top 30% of the department.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
