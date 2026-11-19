@@ -2,7 +2,7 @@
     --text-color: #333333;
     --light-text: #666666;
     --bg-color: #fafafa;
-    --sidebar-bg: #ffffff;
+    --sidebar-bg: transparent;
     --accent-color: #0055a4;
     --border-color: #e0e0e0;
 }
@@ -32,7 +32,10 @@ body {
     background-color: var(--sidebar-bg);
     padding: 40px 30px;
     border-right: 1px solid var(--border-color);
-    position: fixed;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    flex-shrink: 0;
     height: 100vh;
     overflow-y: auto;
 }
@@ -115,7 +118,7 @@ body {
 
 .content {
     flex: 1;
-    margin-left: 320px;
+    min-width: 0;
     padding: 60px 80px;
     max-width: 880px;
 }
@@ -211,25 +214,48 @@ p {
     .container {
         flex-direction: column;
     }
-    
+
+    /* Let the sidebar's pieces sit in the page flow so the menu can stick to the top while scrolling */
     .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-        padding: 30px 20px;
-        border-right: none;
+        display: contents;
+    }
+
+    .profile-img {
+        margin-top: 30px;
+    }
+
+    .sidebar h1,
+    .sidebar .title,
+    .sidebar .affiliation,
+    .contact-links {
+        padding: 0 20px;
+    }
+
+    .contact-links {
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .nav-menu {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 20px;
+        padding: 12px 20px;
+        background-color: rgba(250, 250, 250, 0.85);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
         border-bottom: 1px solid var(--border-color);
     }
 
     .content {
-        margin-left: 0;
         padding: 40px 20px;
     }
-    
-    .nav-menu {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
+
+    section {
+        scroll-margin-top: 90px;
     }
 }
